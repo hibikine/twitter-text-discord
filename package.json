@@ -1,0 +1,25 @@
+{
+  "name": "twitter-text-discord",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/App.ts"
+  },
+  "dependencies": {
+    "@discordjs/uws": "^11.149.1",
+    "@types/twitter-text": "^2.0.0",
+    "bufferutil": "^4.0.1",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "erlpack": "discordapp/erlpack",
+    "node-opus": "^0.3.3",
+    "opusscript": "^0.0.7",
+    "twitter-text": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.2"
+  }
+}
